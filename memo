@@ -1,0 +1,46 @@
+#止まらずにずっと繰り返す
+
+    loop do
+      # 繰り返すの1回分
+    end
+
+
+#制御
+    if 条件
+      puts "条件に合っています"
+    else
+      puts "条件に合っていません"
+    end
+
+
+    unless 条件
+      puts "条件に合っていません"
+    end
+    
+    if !条件
+      puts "条件に合っていません"
+    end
+
+#最悪の例(使うな)
+
+    unless 条件
+      puts "条件に合っていません"
+    else
+      puts "条件に合っています"
+    end
+    
+
+
+#繰り返し＋制御
+    while 条件 do
+      # 条件を満たす間だけ、何かする
+    end
+
+
+loop do
+  if 条件
+    # 条件を満たす間だけ、何かする
+  else
+    break
+  end
+end
